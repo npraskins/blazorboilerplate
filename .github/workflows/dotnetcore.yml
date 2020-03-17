@@ -18,4 +18,4 @@ jobs:
       with:
         dotnet-version: 3.1.200
     - name: Build with dotnet
-      run: dotnet build --configuration Release_CSB ./src/BlazorBoilerplate.Server/BlazorBoilerplate.Server.csproj
+      run: dotnet build --configuration Release_CSB src/BlazorBoilerplate.Server/BlazorBoilerplate.Server.csproj
